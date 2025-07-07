@@ -1,0 +1,95 @@
+body {
+  background-image: url('https://img.freepik.com/free-vector/abstract-blue-geometric-gradient-background_23-2149116406.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", "Segoe UI", sans-serif;
+  color: #1e1e1e;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+
+
+.container {
+    background: rgba(188, 185, 184, 0.9); 
+  margin-top: 60px;
+  width: 90%;
+  max-width: 700px;
+  padding: 32px;
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.05);
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  background-color: #7085cf;
+  text-align: center;
+  margin-bottom: 24px;
+  color: #333;
+}
+
+textarea {
+  width: 100%;
+  padding: 16px;
+  font-size: 1rem;
+  color: #0d0d0d;
+  border: 1px solid #ccc;
+  background-color: #66a7e8;
+  border-radius: 12px;
+  resize: vertical;
+  min-height: 160px;
+  font-family: inherit;
+  box-sizing: border-box;
+  transition: border 0.3s ease;
+}
+
+textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+textarea::placeholder {
+  color: #1c1b1b; 
+  opacity: 1;  
+}
+
+
+button {
+  display: block;
+  margin: 20px auto 0;
+  padding: 12px 32px;
+  font-size: 1rem;
+  font-weight: 500;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+button:hover:not(:disabled) {
+  background-color: #005dc1;
+}
+
+button:disabled {
+  background-color: #7da4d1;
+  cursor: not-allowed;
+}
+
+.summary-box {
+  margin-top: 32px;
+  padding: 24px;
+  background: #66a7e8;
+  border-left: 5px solid #007bff;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  white-space: pre-wrap;
+  color: #2e2e2e;
+}
